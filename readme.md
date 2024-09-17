@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛠️ Community Helper Application
 
 ## Project Overview
@@ -69,3 +70,5 @@ The **Community Helper Application** is a platform designed to connect volunteer
 - **📝 Satram Tripathi**  
   _Role: Content Writer & Documentation Writer_  
   Satram is responsible for writing project documentation, including user guides, feature descriptions, and application content, ensuring clarity and comprehensibility for all users.
+=======
+
