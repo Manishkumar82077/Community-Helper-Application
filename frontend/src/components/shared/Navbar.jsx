@@ -6,16 +6,25 @@ import { PopoverTrigger } from '@radix-ui/react-popover'
 import { Button } from '../ui/button'
 import { LogOut, User2 } from 'lucide-react'
 import { Link } from 'react-router-dom'
-
+import logo from '../../assets/images/logo-black.svg'
 
 const Navbar = () => {
   const user = false;
   return (
-    <div className='mt-5   bg-white w-full justify-between' style={{ position: 'absolute', top: 0, left: 0 }} >
+    <div className='mt-5   bg-white w-full justify-between'>
       <div className='flex items-center justify-between mx-auto w-full h-16' >
-        <div>
-          <h1 className='text-2xl font-bold'>Community Helper <span className='text-[#F83002]'>Portal</span></h1>
+        <div className="flex items-center justify-center">
+         
+          <h1 className="text-2xl font-bold ml-5 rounded-sm  p-4 shadow-sm">
+          <img
+            src={logo}
+            alt="Your Logo"
+            className="w-10 h-10 rounded-full border-4 border-green-600  shadow-lg object-cover"
+          />
+            Community Helper <span className="text-[#F83002]">Portal</span>
+          </h1>
         </div>
+
         <div className='justify-end flex items-center gap-12'>
           <ul className='flex font-medium items-center gap-5  '>
             <li>Home</li>
